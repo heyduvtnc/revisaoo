@@ -5,7 +5,7 @@ package br.senai.sc.model.negocio;
  * @version 1.0 31/07/13
  * @author larissa_mezari
  */
-public class Funcionario {
+public class Funcionario extends PessoaFisica {
     private double salario;
     private String dataAdmissao;
     private String ctps;
